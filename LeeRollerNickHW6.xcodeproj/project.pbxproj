@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		01F2BDDA2CD85F59007EC9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F2BDC12CD85F57007EC9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F2BDC82CD85F57007EC9A2;
+			remoteInfo = LeeRollerNickHW6;
+		};
+		01F2BDE42CD85F59007EC9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F2BDC12CD85F57007EC9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F2BDC82CD85F57007EC9A2;
+			remoteInfo = LeeRollerNickHW6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F2BDC92CD85F57007EC9A2 /* LeeRollerNickHW6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeRollerNickHW6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F2BDD92CD85F59007EC9A2 /* LeeRollerNickHW6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeRollerNickHW6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F2BDE32CD85F59007EC9A2 /* LeeRollerNickHW6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeRollerNickHW6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		01F2BDCB2CD85F57007EC9A2 /* LeeRollerNickHW6 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LeeRollerNickHW6;
+			sourceTree = "<group>";
+		};
+		01F2BDDC2CD85F59007EC9A2 /* LeeRollerNickHW6Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LeeRollerNickHW6Tests;
+			sourceTree = "<group>";
+		};
+		01F2BDE62CD85F59007EC9A2 /* LeeRollerNickHW6UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LeeRollerNickHW6UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01F2BDC62CD85F57007EC9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F2BDD62CD85F59007EC9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F2BDE02CD85F59007EC9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F2BDC02CD85F57007EC9A2 = {
+			isa = PBXGroup;
+			children = (
+				01F2BDCB2CD85F57007EC9A2 /* LeeRollerNickHW6 */,
+				01F2BDDC2CD85F59007EC9A2 /* LeeRollerNickHW6Tests */,
+				01F2BDE62CD85F59007EC9A2 /* LeeRollerNickHW6UITests */,
+				01F2BDCA2CD85F57007EC9A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01F2BDCA2CD85F57007EC9A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01F2BDC92CD85F57007EC9A2 /* LeeRollerNickHW6.app */,
+				01F2BDD92CD85F59007EC9A2 /* LeeRollerNickHW6Tests.xctest */,
+				01F2BDE32CD85F59007EC9A2 /* LeeRollerNickHW6UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01F2BDC82CD85F57007EC9A2 /* LeeRollerNickHW6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F2BDED2CD85F59007EC9A2 /* Build configuration list for PBXNativeTarget "LeeRollerNickHW6" */;
+			buildPhases = (
+				01F2BDC52CD85F57007EC9A2 /* Sources */,
+				01F2BDC62CD85F57007EC9A2 /* Frameworks */,
+				01F2BDC72CD85F57007EC9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				01F2BDCB2CD85F57007EC9A2 /* LeeRollerNickHW6 */,
+			);
+			name = LeeRollerNickHW6;
+			packageProductDependencies = (
+			);
+			productName = LeeRollerNickHW6;
+			productReference = 01F2BDC92CD85F57007EC9A2 /* LeeRollerNickHW6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01F2BDD82CD85F59007EC9A2 /* LeeRollerNickHW6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F2BDF02CD85F59007EC9A2 /* Build configuration list for PBXNativeTarget "LeeRollerNickHW6Tests" */;
+			buildPhases = (
+				01F2BDD52CD85F59007EC9A2 /* Sources */,
+				01F2BDD62CD85F59007EC9A2 /* Frameworks */,
+				01F2BDD72CD85F59007EC9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F2BDDB2CD85F59007EC9A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				01F2BDDC2CD85F59007EC9A2 /* LeeRollerNickHW6Tests */,
+			);
+			name = LeeRollerNickHW6Tests;
+			packageProductDependencies = (
+			);
+			productName = LeeRollerNickHW6Tests;
+			productReference = 01F2BDD92CD85F59007EC9A2 /* LeeRollerNickHW6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01F2BDE22CD85F59007EC9A2 /* LeeRollerNickHW6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F2BDF32CD85F59007EC9A2 /* Build configuration list for PBXNativeTarget "LeeRollerNickHW6UITests" */;
+			buildPhases = (
+				01F2BDDF2CD85F59007EC9A2 /* Sources */,
+				01F2BDE02CD85F59007EC9A2 /* Frameworks */,
+				01F2BDE12CD85F59007EC9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F2BDE52CD85F59007EC9A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				01F2BDE62CD85F59007EC9A2 /* LeeRollerNickHW6UITests */,
+			);
+			name = LeeRollerNickHW6UITests;
+			packageProductDependencies = (
+			);
+			productName = LeeRollerNickHW6UITests;
+			productReference = 01F2BDE32CD85F59007EC9A2 /* LeeRollerNickHW6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01F2BDC12CD85F57007EC9A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					01F2BDC82CD85F57007EC9A2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					01F2BDD82CD85F59007EC9A2 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 01F2BDC82CD85F57007EC9A2;
+					};
+					01F2BDE22CD85F59007EC9A2 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 01F2BDC82CD85F57007EC9A2;
+					};
+				};
+			};
+			buildConfigurationList = 01F2BDC42CD85F57007EC9A2 /* Build configuration list for PBXProject "LeeRollerNickHW6" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01F2BDC02CD85F57007EC9A2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 01F2BDCA2CD85F57007EC9A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F2BDC82CD85F57007EC9A2 /* LeeRollerNickHW6 */,
+				01F2BDD82CD85F59007EC9A2 /* LeeRollerNickHW6Tests */,
+				01F2BDE22CD85F59007EC9A2 /* LeeRollerNickHW6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01F2BDC72CD85F57007EC9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F2BDD72CD85F59007EC9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F2BDE12CD85F59007EC9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F2BDC52CD85F57007EC9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F2BDD52CD85F59007EC9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F2BDDF2CD85F59007EC9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01F2BDDB2CD85F59007EC9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F2BDC82CD85F57007EC9A2 /* LeeRollerNickHW6 */;
+			targetProxy = 01F2BDDA2CD85F59007EC9A2 /* PBXContainerItemProxy */;
+		};
+		01F2BDE52CD85F59007EC9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F2BDC82CD85F57007EC9A2 /* LeeRollerNickHW6 */;
+			targetProxy = 01F2BDE42CD85F59007EC9A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F2BDEB2CD85F59007EC9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01F2BDEC2CD85F59007EC9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01F2BDEE2CD85F59007EC9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeeRollerNickHW6/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LeeRollerNickHW6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01F2BDEF2CD85F59007EC9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeeRollerNickHW6/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LeeRollerNickHW6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01F2BDF12CD85F59007EC9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LeeRollerNickHW6Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeRollerNickHW6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeeRollerNickHW6";
+			};
+			name = Debug;
+		};
+		01F2BDF22CD85F59007EC9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LeeRollerNickHW6Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeRollerNickHW6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeeRollerNickHW6";
+			};
+			name = Release;
+		};
+		01F2BDF42CD85F59007EC9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LeeRollerNickHW6UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeeRollerNickHW6;
+			};
+			name = Debug;
+		};
+		01F2BDF52CD85F59007EC9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LeeRollerNickHW6UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeeRollerNickHW6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F2BDC42CD85F57007EC9A2 /* Build configuration list for PBXProject "LeeRollerNickHW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F2BDEB2CD85F59007EC9A2 /* Debug */,
+				01F2BDEC2CD85F59007EC9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F2BDED2CD85F59007EC9A2 /* Build configuration list for PBXNativeTarget "LeeRollerNickHW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F2BDEE2CD85F59007EC9A2 /* Debug */,
+				01F2BDEF2CD85F59007EC9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F2BDF02CD85F59007EC9A2 /* Build configuration list for PBXNativeTarget "LeeRollerNickHW6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F2BDF12CD85F59007EC9A2 /* Debug */,
+				01F2BDF22CD85F59007EC9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F2BDF32CD85F59007EC9A2 /* Build configuration list for PBXNativeTarget "LeeRollerNickHW6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F2BDF42CD85F59007EC9A2 /* Debug */,
+				01F2BDF52CD85F59007EC9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01F2BDC12CD85F57007EC9A2 /* Project object */;
+}
