@@ -9,28 +9,100 @@ import XCTest
 @testable import LeeRollerNickHW6
 
 final class LeeRollerNickHW6Tests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    var flashcardViewModel: FlashcardViewModel = FlashcardViewModel()
+    
+    override func setUp() {
+        flashcardViewModel = FlashcardViewModel()
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testNumberOfFlashcards()  {
+        XCTAssertEqual(flashcardViewModel.numberOfFlashcards, 5)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func testFlashcards()  {
+        let flashcards = flashcardViewModel.flashcards
+        XCTAssertNotNil(flashcards)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testCurrentIndex()  {
+        XCTAssertEqual(flashcardViewModel.currentIndex, 0)
+    }
+    
+    func testCurrentFlashcard() {
+        let flashcard = flashcardViewModel.currentFlashcard
+        XCTAssertNotNil(flashcard)
+    }
+    
+    func testFavoriteFlashcards() {
+        let favorites = flashcardViewModel.favoriteFlashcards
+        XCTAssertEqual(favorites.count, 0)
+    }
+    
+    func testRandomize() {
+        let prev = flashcardViewModel.currentIndex
+        flashcardViewModel.randomize()
+        let curr = flashcardViewModel.currentIndex
+        XCTAssertNotEqual(prev, curr)
+    }
+    
+    func testNext() {
+        let prev = flashcardViewModel.currentIndex
+        flashcardViewModel.randomize()
+        let curr = flashcardViewModel.currentIndex
+        XCTAssertEqual(prev+1, curr)
+    }
+    
+    func testPrevious() {
+        let prev = flashcardViewModel.currentIndex
+        flashcardViewModel.randomize()
+        let curr = flashcardViewModel.currentIndex
+        XCTAssertNotEqual(prev, curr)
+    }
+    
+    func testFlashcard() {
+        let flashcard = flashcardViewModel.flashcard(at:0)
+        XCTAssertNotEqual(flashcard, nil)
+    }
+    
+    func testAppend() {
+        let flashcard = Flashcard(question: "question", answer: "answer", isFavorite: false)
+        flashcardViewModel.append(flashcard: flashcard)
+        let index = flashcardViewModel.flashcards.count - 1
+        let newCard = flashcardViewModel.flashcard(at: index)
+        XCTAssertEqual(flashcard, newCard)
+    }
+    
+    func testInsert() {
+        let flashcard = Flashcard(question: "question", answer: "answer", isFavorite: false)
+        flashcardViewModel.insert(flashcard: flashcard, at: 0)
+        let newCard = flashcardViewModel.flashcard(at: 0)
+        XCTAssertEqual(flashcard, newCard)
+    }
+    
+    func testRemoveFlashcard() {
+        let prev = flashcardViewModel.numberOfFlashcards
+        flashcardViewModel.removeFlashcard(at: 0)
+        let curr = flashcardViewModel.numberOfFlashcards
+        XCTAssertEqual(prev-1, curr)
+    }
+    
+    func testUpdate() {
+        let flashcard = Flashcard(question: "question", answer: "answer", isFavorite: false)
+        flashcardViewModel.update(flashcard: flashcard, at: 0)
+        XCTAssertEqual(flashcard, flashcardViewModel.flashcard(at: 0))
+    }
+    
+    func testToggleFavorite() {
+        let prev = flashcardViewModel.currentFlashcard!.isFavorite
+        flashcardViewModel.toggleFavorite()
+        let curr = flashcardViewModel.currentFlashcard!.isFavorite
+        XCTAssertNotEqual(prev, curr)
+    }
+    
+    func testGetIndex() {
+        let prev = flashcardViewModel.flashcard(at: 0)
+        let index = flashcardViewModel.getIndex(for: prev!)
+        XCTAssertEqual(index, 0)
     }
 
 }
